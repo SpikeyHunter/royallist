@@ -1,0 +1,26 @@
+name: RoyalList
+version: 2.0
+main: com.spikeyhunter.royallist.Main
+usage: /help royallist
+commands:
+  list:
+    description: Do /list to view the players online!
+    aliases: [staff, online]
+  royallist:
+    description: Base command.
+  listhide:
+    description: Hide from the list.
+permissions:
+  royallist.staff:
+    default: op
+  royallist.donor:
+    default: false
+  royallist.famous:
+    default: false
+  royallist.youtube:
+    default: false
+  royallist.twitch:
+    default: false
+  royallist.*:
+    default: false
+    

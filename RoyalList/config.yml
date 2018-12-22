@@ -1,0 +1,41 @@
+#
+#
+#    RoyalList configuration
+#
+#
+
+ListMessage:
+- ''
+- '&8&l&m---[&c&l&m----&r  &c&k&l[ ]&r  &6&lOnline Staff  &c&k&l[ ]&r   &c&l&m----&8&l&m]---'
+- ''
+- '&7Players online: &6&l%Players%/%MaxPlayers%'
+- ''
+- '&eOnline Staff&7: &c%StaffAmount%'
+- ' &7-&a&lSkyblock&7: &c%Staff%'
+- ''
+- '&8&l&m---[&c&l&m----------------------------&8&l&m]---'
+- ''
+
+# This is the message shown when there are no players online for a section
+None: "&cNone"
+
+# This is the message shown when the player toggles hiding on.
+HiddenSelf: "&7&lRoyalList &8&l>> &7You are now &ahidden&7."
+
+# This is the message shown when the player toggles hiding off.
+NotHiddenSelf: "&7&lRoyalList &8&l>> &7You are now &cunhidden&7."
+
+# This is the message shown when the player toggles hiding on for another player.
+HiddenOther: "&7&lRoyalList &8&l>> &7You have now hidden &a%Target%&7."
+
+# This is the message shown when the player toggles hiding off.
+NotHiddenOther: "&7&lRoyalList &8&l>> &7You have now unhidden &c%Target%&7."
+
+# What should we say if someone tries to toggle the hider for a player that is not online?
+Player Does Not Exist: "&7&lRoyalList &8&l>> &cThat specified player does not exist!"
+
+# What sould we say if someone doesn't have the permission?
+NoPermission: "&7&lRoyalList &8&l>> &cYou don't have the permission to perform this command."
+
+# This is the message the shows up when the configuration file is reloaded.
+Config reload message: "&7&lRoyalList &8&l>> &7Config file was reloaded."
